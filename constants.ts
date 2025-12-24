@@ -8,7 +8,7 @@ export const GREETINGS: Greeting[] = [
 ];
 
 // Sử dụng URL trực tuyến thay vì file local
-export const AUDIO_URL = "/assets/music.mp3";
+export const AUDIO_URL = "https://res.cloudinary.com/dmdzrgquc/video/upload/v1766590500/music_cz9ocd.mp3";
 
 export const COLORS = [
   "#ff0000", // Red
