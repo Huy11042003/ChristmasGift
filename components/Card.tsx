@@ -79,7 +79,7 @@ const Card: React.FC<CardProps> = ({ onClose }) => {
 
         <div style={{ fontFamily: "PlaywriteVN" }}
             ref={containerRef}
-            className="space-y-3 text-base md:text-lg leading-tight font-semibold min-h-[140px] text-left select-none cursor-pointer overflow-y-auto max-h-[50vh] leading-relaxed"
+            className="space-y-3 text-base md:text-lg font-semibold min-h-[140px] text-left select-none cursor-pointer overflow-y-auto max-h-[50vh] leading-relaxed"
             title="Nhấn để hiện tất cả chữ"
         >
           {displayedLines.map((text, idx) => (
