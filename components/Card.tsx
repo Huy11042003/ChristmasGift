@@ -7,7 +7,7 @@ interface CardProps {
 const LINES = [
   "Chúc m một mùa Giáng Sinh thật ấm áp và tràn đầy yêu thương!",
   "Mong rằng những ngày lễ này sẽ mang đến cho m những khoảnh khắc tuyệt vời bên người thân và gia đình.",
-  "Cảm ơn m vì đã luôn ở bên và chia sẻ những niềm vui trong năm qua. Mong m sẽ mau khỏe  ^^."
+  "Cảm ơn m vì đã luôn ở bên và chia sẻ những niềm vui trong năm qua. Mong m sẽ mau khỏe    ^^."
 ];
 
 const Card: React.FC<CardProps> = ({ onClose }) => {
@@ -79,7 +79,7 @@ const Card: React.FC<CardProps> = ({ onClose }) => {
 
         <div style={{ fontFamily: "PlaywriteVN" }}
             ref={containerRef}
-            className="space-y-3 text-base md:text-lg font-semibold min-h-[140px] text-left select-none cursor-pointer overflow-y-auto max-h-[50vh] leading-relaxed"
+            className="space-y-3 text-base md:text-lg font-semibold min-h-[140px] text-left select-none cursor-pointer overflow-y-auto max-h-[50vh] leading-loose"
             title="Nhấn để hiện tất cả chữ"
         >
           {displayedLines.map((text, idx) => (

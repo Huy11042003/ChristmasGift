@@ -139,7 +139,7 @@ const App: React.FC = () => {
                   key={currentGreeting}
                   className="absolute top-0 whitespace-nowrap text-2xl md:text-4xl text-green-300 font-bold drop-shadow-[0_0_5px_rgba(0,255,0,0.8)]"
                   style={{ 
-                    animation: 'run 10s linear forwards',
+                    animation: 'run 5s linear forwards',
                     willChange: 'transform'
                   }}
                   onAnimationEnd={handleNextGreeting}
