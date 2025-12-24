@@ -5,9 +5,9 @@ interface CardProps {
 }
 
 const LINES = [
-  "Chúc bạn một mùa Giáng Sinh thật ấm áp và tràn đầy yêu thương!",
-  "Mong rằng những ngày lễ này sẽ mang đến cho bạn những khoảnh khắc tuyệt vời bên gia đình và người thân.",
-  "Cảm ơn bạn vì đã luôn ở bên và chia sẻ những niềm vui trong năm qua. Chúc bạn năm mới an khang, hạnh phúc và thành công!"
+  "Chúc m một mùa Giáng Sinh thật ấm áp và tràn đầy yêu thương!",
+  "Mong rằng những ngày lễ này sẽ mang đến cho m những khoảnh khắc tuyệt vời bên người thân và gia đình.",
+  "Cảm ơn m vì đã luôn ở bên và chia sẻ những niềm vui trong năm qua. Mong m sẽ mau khỏe  ^^."
 ];
 
 const Card: React.FC<CardProps> = ({ onClose }) => {
@@ -73,13 +73,13 @@ const Card: React.FC<CardProps> = ({ onClose }) => {
         </button>
 
         <div className="mb-3">
-          <h2 className="text-2xl md:text-3xl text-red-600 font-bold drop-shadow-sm">🎄 Thư Chúc Mừng 🎄</h2>
+          <h2 style={{ fontFamily: "PlaywriteVN" }} className="text-2xl md:text-3xl text-red-600 font-bold drop-shadow-sm">🎄 Gửi Mỹ Khang 🎄</h2>
           <div className="w-12 h-1 bg-red-400 mx-auto mt-1 rounded-full"></div>
         </div>
 
-        <div 
+        <div style={{ fontFamily: "PlaywriteVN" }}
             ref={containerRef}
-            className="space-y-3 text-base md:text-lg leading-tight font-semibold min-h-[140px] text-left select-none cursor-pointer overflow-y-auto max-h-[50vh]"
+            className="space-y-3 text-base md:text-lg leading-tight font-semibold min-h-[140px] text-left select-none cursor-pointer overflow-y-auto max-h-[50vh] leading-relaxed"
             title="Nhấn để hiện tất cả chữ"
         >
           {displayedLines.map((text, idx) => (
@@ -94,12 +94,12 @@ const Card: React.FC<CardProps> = ({ onClose }) => {
           ))}
         </div>
 
-        <div className={`mt-4 text-red-600 font-bold text-lg md:text-xl transition-all duration-1000 ${lineIndex >= LINES.length ? 'opacity-100 scale-105' : 'opacity-0 translate-y-2'}`}>
+        <div style={{ fontFamily: "PlaywriteVN" }} className={`mt-4 text-red-600 font-bold text-lg md:text-xl transition-all duration-1000 ${lineIndex >= LINES.length ? 'opacity-100 scale-105' : 'opacity-0 translate-y-2'}`}>
           Giáng Sinh Vui Vẻ! ❤️
         </div>
         
         {lineIndex < LINES.length && (
-            <div className="absolute bottom-2 right-4 text-[9px] text-gray-400 italic animate-pulse">
+            <div style={{ fontFamily: "PlaywriteVN" }} className="absolute bottom-2 right-4 text-[9px] text-gray-400 italic animate-pulse">
                 Chạm để xem hết...
             </div>
         )}
