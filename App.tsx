@@ -19,7 +19,7 @@ const App: React.FC = () => {
     // Tự động hiện thiệp sau 10 giây
     setTimeout(() => {
       setShowCard(true);
-    }, 10000);
+    }, 5000);
   };
 
   const playMusic = () => {
