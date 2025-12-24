@@ -19,3 +19,14 @@ export const COLORS = [
   "#00ffff", // Cyan
   "#ffffff", // White
 ];
+
+module.exports = {
+  theme: {
+    extend: {
+      fontFamily: {
+        playwrite: ["PlaywriteVN", "sans-serif"],
+      },
+    },
+  },
+  plugins: [],
+}
