@@ -8,7 +8,7 @@ export const GREETINGS: Greeting[] = [
 ];
 
 // Sử dụng URL trực tuyến thay vì file local
-export const AUDIO_URL = "./assets/music.mp3";
+export const AUDIO_URL = "https://github.com/Huy11042003/ChristmasGift/blob/main/assets/music.mp3";
 
 export const COLORS = [
   "#ff0000", // Red
