@@ -156,7 +156,7 @@ const App: React.FC = () => {
              <div className="text-yellow-300 text-7xl md:text-8xl drop-shadow-[0_0_25px_rgba(255,215,0,1)] transition-transform hover:scale-110 active:scale-95">
                ★
              </div>
-             <p className="mt-4 text-gray-300 text-lg md:text-xl font-mono border border-gray-600 px-4 py-2 rounded bg-black/40 backdrop-blur-sm shadow-xl">
+             <p className="font-playwrite mt-4 text-gray-300 text-lg md:text-xl font-mono border border-gray-600 px-4 py-2 rounded bg-black/40 backdrop-blur-sm shadow-xl">
                👆 Chạm vào ngôi sao 👆
              </p>
           </div>
